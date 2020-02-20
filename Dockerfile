@@ -1,6 +1,6 @@
 # Pull base image 
-From tomcat:8-jre8 
+From holliday:1.0 
 
 # Maintainer 
-MAINTAINER "kserge2001@yahoo.fr" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+MAINTAINER "clotilde"
+COPY holliday.war /usr/local/holliday/webapps
